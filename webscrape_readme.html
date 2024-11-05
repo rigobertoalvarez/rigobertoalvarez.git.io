@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+  <title>Readme - Massively by HTML5 UP</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+
+  <style>
+    .image-zoom {
+      transition: transform 0.3s ease; /* Smooth transition */
+    }
+  
+    .image-zoom:hover {
+      transform: scale(1.5); /* Slight zoom-in effect */
+    }
+  </style>
+  
+</head>
+
+
+
+<body class="is-preload">
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+      <a class="logo">Data Analysis and Visualization Project</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="links">
+        <li><a href="index.html">Back to Projects</a></li>
+
+      </ul>
+      <ul class="icons">
+        <li><a
+            href="https://www.linkedin.com/in/rigoberto-alvarez-246a8a200?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHAMRBbXbTt6wi2rbwHf9mw%3D%3D"
+            class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+
+        <li><a href="https://github.com/rigobertoalvarez" class="icon brands alt fa-github"><span
+              class="label">GitHub</span></a></li>
+      </ul>
+      
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+      <!-- Post -->
+      <section class="post">
+        <header class="major">
+
+          <h1>Web Scraping and Analysis of Top Companies in<br />
+          2024</h1>
+          <p></p>
+        </header>
+
+        <h2>Exploring Revenue and Employment Trends Through Python and Pandas</h2>
+
+        <h3>Project Overview</h3>
+        <p>This project demonstrates web scraping skills using Python to gather data from the web. It focuses on
+          extracting company information, including rankings, industries, revenue, and headquarters location. The
+          project utilizes libraries like <code>BeautifulSoup</code> and <code>requests</code> to pull data, then
+          organizes and analyzes it with <code>pandas</code>. After scraping, the data is saved as a CSV file, 
+          ready for analysis with visualization tools like Tableau. </p>
+
+        <div class="image main"><img src="images/top_companies_code_a.png" alt="" /></div>
+
+        <h3>Files in This Repository</h3>
+        <ul>
+          <li><strong>webscraping.ipynb</strong>: The Jupyter notebook file containing the web scraping script and data
+            analysis code.</li>
+          <li><strong>Companies.csv</strong>: A dataset of company information scraped from the web, including fields
+            like Rank, Name, Industry, Revenue, and Headquarters.</li>
+        </ul>
+
+        <h3>Project Objectives</h3>
+        <ul>
+          <li><strong>Web Scraping</strong>: Gather company data from an online source.</li>
+          <li><strong>Data Analysis</strong>: Use <code>pandas</code> to clean, sort, and analyze the data, making it
+            easier to interpret.</li>
+          <li><strong>Data Visualization</strong>: Present insights about the companies, such as revenue distribution
+            and industry representation.</li>
+        </ul>
+
+        <h3>Requirements</h3>
+        <p>This project is built with:</p>
+        <ul>
+          <li><code>Python 3.x</code></li>
+          <li>Libraries:
+            <ul>
+              <li><code>BeautifulSoup</code> for parsing HTML content</li>
+              <li><code>requests</code> for making HTTP requests</li>
+              <li><code>pandas</code> for data handling</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3>Sample Data Fields</h3>
+        <p>Here are some fields in <code>Companies.csv</code>:</p>
+        <ul>
+          <li><strong>Rank</strong>: Ranking of the company by revenue.</li>
+          <li><strong>Name</strong>: Company name.</li>
+          <li><strong>Industry</strong>: Primary industry of the company.</li>
+          <li><strong>Revenue</strong>: Revenue figures in USD millions.</ </section>
+            <div class="image main"><img src="images/top_companies_data.png" alt="" /></div>
+
+            <p>Below is an example visualization of the scraped data:</p>
+            <div class="image main"><img src="images/top_companies_dash.png" alt="" class="image-zoom" /></div>
+
+
+            <div style="text-align: center; margin-top: 20px;">
+              <p style="font-size: 1.5em;">View this project on <a
+                  href="https://github.com/rigobertoalvarez/Web_scraping_in_python" target="_blank">GitHub</a></p>
+            </div>
+
+            <div id="bottom-navigation" style="text-align: center; margin: 40px 0;">
+              <a href="index.html" style="font-size: 1.2em; text-decoration: none; color: #333; padding: 10px 20px; border: 2px solid #333; border-radius: 5px; display: inline-block;">
+                  Back to Projects
+              </a>
+          </div>
+            
+
+
+    </div>
+
+
+
+
+
+  </div>
+
+  
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+
+
+
+</body>
+
+</html>
